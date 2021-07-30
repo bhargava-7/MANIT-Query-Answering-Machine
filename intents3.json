@@ -1,0 +1,64 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can answer your queries if you have any doubt regarding MANIT", "You can ask me anything about MANIT or Bhopal", "If you are new to MANIT I am here to assist you"],
+         "context": [""]
+        },
+        {"tag": "places_to_visit",
+         "patterns": ["What are some places to visit in Bhopal?", "Give me names of places to visit in Bhopal", "List all the places that can be visited in bhopal", "What are some tourist attraction in Bhopal?" ],
+         "responses": ["Some places to visit in Bhopal are Upper Lake, Van Vihar National Park, Shahpura Lake, People's mall, Sair Sapata, Bharat Bhawan"],
+         "context": [""]
+        },
+        {"tag": "sports",
+         "patterns": ["What are some sports that one can play in MANIT?", "List the sports one can play in MANIT", "What are the sports I can play as in sports complex?" ],
+         "responses": ["Sports that one can play in MANIT are Cricket, Football, Basketball, Volleyball, Badminton, Table Tennis, Chess"],
+         "context": [""]
+        },
+        {"tag": "Classes",
+         "patterns": ["Where will my classes be held in first year?", "Where do I need to go to attend my classes on first day in college as first year?", "Where is the classes generally held in first year?"],
+         "responses": ["The classes of first year is held in NTB or the New Teaching block", "To attend the classes in first year one should go to the New Teaching block."],
+         "context": [""]
+        },
+        {"tag": "clubs",
+         "patterns": ["What are some student clubs one can join in MANIT?","What are the names of societies in MANIT?", "List the names of the student clubs in MANIT"],
+         "responses": ["Some student clubs in MANIT are IBC, VISION, ISTE, AAROHA, AE SE AENAK, ROBOTICS CLUB, QUIZZERS CLUB"],
+         "context": [""]
+        },
+        {"tag": "departments",
+         "patterns": ["What are the depatments in MANIT"],
+         "responses": ["The depaertments in MANIT are EE, CSE, ECE, MSME, CIVIL, CHEMICAL"],
+         "context": [""]
+        },
+        {"tag": "dispensary",
+         "patterns": ["Where is the dispensary in MANIT?", "Where should I go in MANIT if I get sick?", "Where is the treatment center in MANIT?", "Hospital lookup for patient in MANIT"],
+         "responses": ["One should go to dispensary in MANIT located in front of sports complex for treatment purpose."],
+         "context": [""]
+        },
+        {"tag": "Notice",
+         "patterns": ["Where do I get notice regarding college updates?"],
+         "responses": ["Visit the institute website manit.ac.in for latest update"],
+         "context": [""]
+        }
+       
+   ]
+}
